@@ -2,7 +2,6 @@
     margin:0;
     padding:0;
 }
-
 body
 {
    font-family: "Gabarito", sans-serif;
@@ -29,7 +28,6 @@ body
     gap:10px;
     align-items: center;
     
-
 }
 .navbar__s2 input{
     border:none;
@@ -61,12 +59,9 @@ body
 }
 .recommended{
     padding:10px;
-
 }
 .course_card{
     width: 250px;;
-
-
 }
 .course_card img{
     width:100%;
@@ -80,7 +75,6 @@ body
 }
 .topics{
     padding:10px;
-
 }
 .topics__container{
     display:flex;
@@ -97,13 +91,10 @@ body
 }
 .popular{
     padding:10px;
-
 }
 .popular__container{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 10px;
-
-
 }
