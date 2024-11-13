@@ -78,6 +78,14 @@ body
     color:white;
     padding:10px;
     border-radius: 20px;
+    border:solid #8710D8 1px;
+}
+.categories p:hover{
+    background-color: white;
+    color:#8710D8;
+    transition: 1s;
+    cursor:pointer;
+    border:solid #8710D8 1px;
 }
 
 }
@@ -140,7 +148,21 @@ body
     padding:2%;
     top:10%;
     left:10%;
+    animation-name: zoom;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes zoom{
+    0%{
+        transform: scale(0);
+        opacity: 0;
 
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+
+    }
 }
 .footer{
     background-color: black;
