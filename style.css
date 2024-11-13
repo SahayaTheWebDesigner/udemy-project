@@ -97,6 +97,21 @@ body
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 10px;
+
+
+}
+.sale-img{
+    position: relative;
+}
+.sale-img__offer{
+   border-color: black;
+    background-color: aquamarine;
+    position:absolute;
+    width:35%;
+    padding:2%;
+    top:10%;
+    left:10%;
+
 }
 .footer{
     background-color: black;
