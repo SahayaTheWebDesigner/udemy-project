@@ -219,8 +219,16 @@ body
         display:none;
 
     }
-    ..sale-img__offer{
-        font-size: 5px;
+    .sale-img__pr{
+        display:none;
+        
+    }
+    .sale-img__hd{
+        font-size: 10px;
+    }
+    .sale-img__offer{
+        width:15%;
+
     }
     
 }
