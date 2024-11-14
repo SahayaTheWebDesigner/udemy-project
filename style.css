@@ -209,6 +209,7 @@ body
 @media screen and (max-width:600px){
     .course_card{
         flex-basis: 40%;
+        margin-bottom: 5px;
     }
     .navbar__s4{
         display:block;
