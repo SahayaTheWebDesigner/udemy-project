@@ -105,6 +105,7 @@ body
     margin: 5px;
     border: solid black 1px;
     text-align: center;
+    padding:5px;
 }
 .course_card img{
     width:100%;
